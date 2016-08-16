@@ -1,0 +1,27 @@
+body{
+  background: url("../img/beauty.jpg") center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#guess, #playAgain{
+  display: none;
+}
+
+#answerInput, #guessInput {
+  text-transform: uppercase;
+}
+.well{
+  border-radius: 10px;
+  margin-top: 40%;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.7) !important;
+}
+.lose{
+  background: url("../img/gaston.jpg") center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.red{
+  color: red;
+  font-weight: bold;
+}

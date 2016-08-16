@@ -1,0 +1,43 @@
+body{
+  /*background-color: #4ABDAC;*/
+  background: url("../img/sieve.jpg") center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+
+}
+h1{
+  font-family: 'Bad Script', cursive;
+}
+.well{
+  background: rgba(200, 0, 0, 0.5);
+  border: none;
+  text-align: center;
+  margin: 25% auto 0 auto;
+  width:400px;
+  border-radius: 10px;
+}
+.smallNumber{
+  font-size:105px;//100
+}
+.mediumNumber{
+  font-size: 52px; //1000
+}
+.mediumLargeNumber{
+  font-size: 40px; //2000
+}
+.largeNumber{
+  font-size: 20px;
+}
+#playAgain{
+  display:none;
+}
+#prime{
+  border-radius: 100%;
+}
+#primeRib{
+display:none;
+}
+.resultsDiv{
+  margin-top:5%;
+}

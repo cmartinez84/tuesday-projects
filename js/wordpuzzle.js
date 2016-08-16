@@ -1,6 +1,8 @@
 $(function(){
+  var inputSentence;
+
   $("#buttonHide").click(function(){
-    var inputSentence = $("#inputSentence").val();
+    inputSentence = $("#inputSentence").val();
     var vowels = ["a", "e", "i", "o","u"];
     var inputArray = inputSentence.split("");
 
@@ -12,13 +14,16 @@ $(function(){
       }
     }
     var outputSentence = inputArray.join("");
+
+    $("#inputSentence").val(outputSentence);
     $("#outputSentence").val(outputSentence);
-    $("#inputSentence").hide();
-    $("#outputSentence").show();
+    $("#input").hide();
+    $("#output").show();
   });
 
   $("#buttonShow").click(function(){
-    $("#inputSentence").show();
-    $("#outputSentence").hide();
+    $("#inputSentence").val(inputSentence);
+    $("#input").show();
+    $("#output").hide();
   })
 })
